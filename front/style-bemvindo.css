@@ -1,0 +1,91 @@
+/* Resetando alguns estilos padrão */
+body, h1, h2, p {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Estilos do corpo */
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    background-color: #f0f4f8; /* Cor de fundo clara */
+    color: #333; /* Cor do texto escuro */
+    line-height: 1.6; /* Melhora a legibilidade */
+}
+
+/* Estilos do container */
+.container {
+    max-width: 600px; /* Limita a largura do container */
+    margin: 0 auto; /* Centraliza o container */
+    padding: 20px; /* Adiciona um pouco de padding */
+    background-color: #fff; /* Fundo branco para o container */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil para profundidade */
+    border-radius: 8px; /* Cantos arredondados */
+}
+
+/* Estilos do logo */
+.logo {
+    display: block; /* Centraliza o logo */
+    margin: 0 auto 20px; /* Centraliza e adiciona espaço abaixo */
+    max-width: 20%; /* Logo responsivo */
+    height: auto; /* Mantém a proporção */
+}
+
+.header {
+    color: #1D4F72;
+}
+
+/* Estilos do cabeçalho */
+header {
+    text-align: center; /* Centraliza o texto do cabeçalho */
+    margin-bottom: 20px; /* Espaço abaixo do cabeçalho */
+}
+
+h1 {
+    font-size: 2.5em; /* Tamanho maior para o título principal */
+    color: #2c3e50; /* Cor mais escura para o título */
+}
+
+p {
+    margin-bottom: 10px; /* Espaço entre os parágrafos */
+}
+
+/* Estilos da seção principal */
+main {
+    margin-bottom: 20px; /* Espaço abaixo da seção principal */
+}
+
+/* Estilos de navegação */
+nav {
+    text-align: center; /* Centraliza os links de navegação */
+    margin-top: 20px; /* Espaço acima da navegação */
+}
+
+.button {
+    display: inline-block; /* Faz os links parecerem botões */
+    padding: 10px 20px; /* Padding para o botão */
+    margin: 5px; /* Espaço entre os botões */
+    background-color: #C93C31; /* Vermelho */
+    color: white;
+    text-decoration: none; /* Remove o sublinhado */
+    border-radius: 5px; /* Cantos arredondados para os botões */
+    transition: background-color 0.3s; /* Transição suave para o efeito de hover */
+}
+
+.card {
+    background-color: #4DA6E2; /* Azul Claro */
+    border: 2px solid #1D4F72; /* Azul Escuro */
+}
+
+.button:hover {
+    background-color: #2980b9; /* Tom mais escuro ao passar o mouse */
+}
+
+/* Estilos do rodapé */
+footer {
+    text-align: center; /* Centraliza o texto do rodapé */
+    margin-top: 20px; /* Espaço acima do rodapé */
+    font-size: 0.9em; /* Tamanho de fonte ligeiramente menor */
+    color: #4FBF9D; /* Cor mais clara para o texto do rodapé */
+}
