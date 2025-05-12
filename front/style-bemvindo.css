@@ -3,7 +3,12 @@ body, h1, h2, p {
     height: 100%;
     margin: 0;
     padding: 0;
-    
+    background-image: url(fundo.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    background-attachment: fixed;
+
 }
 
 /* Estilos do corpo */
